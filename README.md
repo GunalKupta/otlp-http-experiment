@@ -7,6 +7,7 @@ The default exporter is `stdout`. To change to the HTTP exporter, set the `METRI
 ```
 export METRICS_EXPORTER=http
 ```
+and update the global `collectorEndpoint` variable.  
 To run:
 ```
 go run main.go
